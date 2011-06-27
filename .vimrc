@@ -58,6 +58,13 @@ nmap <C-Down> ddp
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
 
+" Move wihin tabs 
+map <S-H> gT
+map <S-L> gt
+
+" Key fixes 
+cmap W w 
+cmap Q q 
 
 "Auto reload .vimrc
 if has("autocmd")
@@ -66,12 +73,6 @@ if has("autocmd")
       autocmd bufwritepost .vimrc source ~/.vimrc
    augroup END
 endif
-
-"Window navigation
-nmap <C-h> <C-w>h
-nmap <C-j> <C-w>j
-nmap <C-k> <C-w>k
-nmap <C-l> <C-w>l
 
 "Fix for arrow keys 
 map [F $
