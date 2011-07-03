@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='sftp://dev//var/www/dev//'
+let g:netrw_dirhist_2='sftp://dev//var/www/dev//system/'
+let g:netrw_dirhist_3='sftp://dev//var/www/dev//system/application/'
+let g:netrw_dirhist_4='sftp://dev//var/www/dev//system/application/views/'
+let g:netrw_dirhist_5='sftp://dev//var/www/dev//system/application/controllers/'
