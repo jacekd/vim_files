@@ -11,12 +11,12 @@ syntax on "Syntax
 set ruler "Display current cursor position in the lower corner 
 
 " Some coloring and GUI
-colorscheme desert 
+colorscheme two2tango
 set background=dark
 set guifont=Monaco:h12
 set showcmd "show command 
 set number "show line number
-set linespace=1 "line spance
+set linespace=3 "line spance
 set go-=T "No toolbar on macvim
 set mousehide "hide mouse when typing 
 set sessionoptions=resize,winpos,winsize,buffers,tabpages,folds,curdir,help "session save settings
@@ -61,6 +61,8 @@ vmap <C-Down> xp`[V`]
 " Move wihin tabs 
 map <S-H> gT
 map <S-L> gt
+
+nmap f <Leader>W
 
 " Key fixes 
 cmap W w 
