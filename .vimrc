@@ -82,3 +82,10 @@ imap [F $
 map [H g0
 imap [H g0
 
+" Autocomplete 
+filetype plugin on
+au FileType php set omnifunc=phpcomplete#CompletePHP
+
+" PHP Generated Code Highlights (HTML & SQL)                                              
+let php_sql_query=1                                                                                        
+let php_htmlInStrings=1

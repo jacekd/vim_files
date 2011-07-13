@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='sftp://dev//var/www/dev//'
-let g:netrw_dirhist_2='sftp://dev//var/www/dev//system/'
-let g:netrw_dirhist_3='sftp://dev//var/www/dev//system/application/'
-let g:netrw_dirhist_4='sftp://dev//var/www/dev//system/application/views/'
-let g:netrw_dirhist_5='sftp://dev//var/www/dev//system/application/controllers/'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='scp://jacek@dev//var/www/notemyfx/application/views/include/'
+let g:netrw_dirhist_2='scp://jacek@dev//var/www/notemyfx/application/controllers/'
+let g:netrw_dirhist_3='scp://jacek@dev//var/www/notemyfx/'
+let g:netrw_dirhist_4='scp://jacek@dev//var/www/notemyfx/application/'
+let g:netrw_dirhist_5='scp://jacek@dev//var/www/notemyfx/include/'
+let g:netrw_dirhist_6='scp://jacek@dev//var/www/notemyfx/include/css/'
+let g:netrw_dirhist_7='scp://jacek@dev//var/www/notemyfx/application/views/'
+let g:netrw_dirhist_8='scp://jacek@dev//var/www/notemyfx/application/views/include/'
