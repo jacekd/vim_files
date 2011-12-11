@@ -35,14 +35,18 @@ umask 022
 #-------------------------------------------------------------
 
 if [ $USER != "root" ] ; then
-    PS1='[\! \h:\w ]\$ '
+#    PS1='[\! \h:\w ]\$ '
+#    PS1='\n\e[0;33m\w\n\e[0;38m→ '
+PS1="\h:\w :: "
 else
-    PS1='[\! \h:\w ]# '
+#    PS1='[\! \h:\w ]# '
+PS1="\h:\w :: "
 fi
 
 # You may uncomment the following lines if you want `ls' to be colorized:
 export LS_OPTIONS='-pG'
 LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.dmg=90'
+
 alias ll='ls $LS_OPTIONS -l'
 alias l='ls $LS_OPTIONS'
 alias s='cd ..'
